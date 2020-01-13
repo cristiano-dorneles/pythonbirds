@@ -14,8 +14,15 @@ if __name__ == '__main__':
     print(Cristiano.cumprimentar())
     print(Cristiano.nome)
     print(Cristiano.idade)
-for filho in Cristiano. filhos:
+    for filho in Cristiano. filhos:
     print(filho.nome)
+    Cristiano.sobrenome = 'Dorneles'
+    del Cristiano.filhos
+    print(Cristiano.__dict__)
+    print(emilly.__dict__)
+
+
+
 
 
 
